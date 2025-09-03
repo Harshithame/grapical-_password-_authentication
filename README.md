@@ -1,10 +1,11 @@
-# AuthenX
+# grapical password authentication
 
-Here are **clear and simple setup instructions** for running your **AuthenX project** locally using **XAMPP**:
+
+Here are **clear and simple setup instructions** for running your **grapical password authentication** locally using **XAMPP**:
 
 ---
 
-# **AuthenX Setup Instructions (XAMPP)**
+# **grapical password authentication Setup Instructions (XAMPP)**
 
 ---
 
@@ -18,12 +19,12 @@ Here are **clear and simple setup instructions** for running your **AuthenX proj
 
 ## **2. Place Project in XAMPP Folder**
 
-1. Download the AuthenX project (ZIP or from GitHub).
-2. Extract the folder and rename it to `AuthenX`.
+1. Download the grapical password authentication project (ZIP or from GitHub).
+2. Extract the folder and rename it to `grapical password authentication_master`.
 3. Move the folder to:
 
    ```
-   C:\xampp\htdocs\AuthenX
+   C:\xampp\htdocs\grapical_password_authentication_master
    ```
 
 ---
@@ -35,7 +36,7 @@ Here are **clear and simple setup instructions** for running your **AuthenX proj
 3. Open browser and go to:
 
    ```
-   http://localhost/AuthenX
+   http://localhost/grapical_password_authentication_master
    ```
 
 ---
@@ -50,7 +51,7 @@ Here are **clear and simple setup instructions** for running your **AuthenX proj
 2. Click **New → Create database** and name it:
 
    ```
-   authenx
+   gpas_final
    ```
 
 ---
@@ -59,7 +60,7 @@ Here are **clear and simple setup instructions** for running your **AuthenX proj
 
 Option A: **Import SQL file** (if included):
 
-* Go to **Import → Choose File → Select `authenx.sql` → Go**
+* Go to **Import → Choose File → Select `gspa_final.sql` → Go**
 
 Option B: **Create manually** (run this query in SQL tab):
 
@@ -114,7 +115,7 @@ if ($conn->connect_error) {
 * Open browser and go to:
 
 ```
-http://localhost/AuthenX
+http://localhost/grapical_password_authenticatio_master
 ```
 
 * Test signup, login, and graphical password features.
@@ -130,7 +131,7 @@ http://localhost/AuthenX
    git add .
    git commit -m "Initial commit - AuthenX"
    git branch -M main
-   git remote add origin https://github.com/<your-username>/AuthenX.git
+   git remote add origin https://github.com/<your-username>/grapical_password_authentication_master
    git push -u origin main
    ```
 
