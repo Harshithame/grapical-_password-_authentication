@@ -129,7 +129,7 @@ http://localhost/grapical_password_authenticatio_master
    ```bash
    git init
    git add .
-   git commit -m "Initial commit - AuthenX"
+   git commit -m "Initial commit - grapical _password_authentication_master"
    git branch -M main
    git remote add origin https://github.com/<your-username>/grapical_password_authentication_master
    git push -u origin main
