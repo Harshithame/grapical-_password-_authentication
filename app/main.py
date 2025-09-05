@@ -20,7 +20,7 @@ app = FastAPI(title="Patient Scheduling Chatbot API")
 orchestrator = WorkflowOrchestrator(DATA_DIR)
 notifications = NotificationService()
 
-scheduler = BackgroundScheduler(timezone=str(tzlocal()))
+scheduler = BackgroundScheduler(timezone="UTC")
 
 
 @app.on_event("startup")

@@ -1,0 +1,12 @@
+INFO:     Started server process [4854]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     127.0.0.1:33704 - "GET / HTTP/1.1" 200 OK
+[EMAIL] to=jane@example.com subject=Appointment Confirmation
+Hello Jane Doe, your appointment with Dr. Smith is confirmed on Sat, Sep 06 2025 at 09:00 AM at Main Clinic.
+[EMAIL] to=jane@example.com subject=Patient Intake Forms
+Please complete your intake forms here: https://example.com/forms/intake
+INFO:     127.0.0.1:33718 - "POST /workflow/start HTTP/1.1" 200 OK
+Run time of job "start_workflow.<locals>.schedule.<locals>.job (trigger: date[2025-09-03 09:00:00 UTC], next run at: 2025-09-03 09:00:00 UTC)" was missed by 2 days, 11:05:09.226175
+Run time of job "start_workflow.<locals>.schedule.<locals>.job (trigger: date[2025-09-05 09:00:00 UTC], next run at: 2025-09-05 09:00:00 UTC)" was missed by 11:05:09.226668
